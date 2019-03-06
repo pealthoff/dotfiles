@@ -226,6 +226,8 @@ let g:NERDTreeNodeDelimiter = "\u00a0"
 " autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 map <C-o> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
+let NERDTreeIgnore = ['\.pyc$', '\.swp']
 
 "Pesquisa em todos os arquivos
 map <C-P> :Files<CR>
