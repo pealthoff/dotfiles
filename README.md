@@ -1,10 +1,26 @@
 # config-files
 
-tmux configuration using https://github.com/samoshkin/tmux-config
+This is my vim + tmux configurations that I use in Ubuntu
 
-vim using plugins:
+## Installation
 
+```
+git clone https://github.com/pealthoff/config-files
+cd config-files
+chmod +x install.sh
+./install.sh
+```
+
+## Used repositories
+
+tmux plugins and base configuration:
+  - https://github.com/samoshkin/tmux-config
+
+vim plugins:
+
+  - ack: https://github.com/mileszs/ack.vim
   - ale: https://github.com/w0rp/ale
+  - ctrlsf.vim: https://github.com/dyng/ctrlsf.vim
   - fzf: https://github.com/junegunn/fzf.git
   - fzf.vim: https://github.com/junegunn/fzf.vim.git
   - nerdtree: https://github.com/scrooloose/nerdtree.git
@@ -14,4 +30,4 @@ vim using plugins:
   - typescript-vim: https://github.com/leafgarland/typescript-vim.git
   - vim-commentary: https://github.com/tpope/vim-commentary.git
   - vim-vue: https://github.com/posva/vim-vue.git
-  
+
