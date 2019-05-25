@@ -4,7 +4,9 @@ tmux configuration using https://github.com/samoshkin/tmux-config
 
 vim using plugins:
 
+  - ack: https://github.com/mileszs/ack.vim
   - ale: https://github.com/w0rp/ale
+  - ctrlsf.vim: https://github.com/dyng/ctrlsf.vim
   - fzf: https://github.com/junegunn/fzf.git
   - fzf.vim: https://github.com/junegunn/fzf.vim.git
   - nerdtree: https://github.com/scrooloose/nerdtree.git
