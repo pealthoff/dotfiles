@@ -239,3 +239,22 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
+
+"Searching with vimgrep
+
+nmap <C-F>v :vimgrep // **/*.*<left><left><left><left><left><left><left><left>
+nmap <C-F>V :vimgrep /<C-R><C-W>/ **/*.*<CR>
+nmap <C-F>c :cwindow<CR>
+
+set wildignore=*.o,*.a,*.so,*.pyc,*.swp,.git/**,*.class,*/target/*,.idea/**,.gitlab/**,.gradlew/**,*.log,logs/**,mapas/**,build/**,**/dist/**,**/node_modules/**
+
+"Searching with ack
+
+nmap     <C-F>f <Plug>CtrlSFPrompt
+vmap     <C-F>f <Plug>CtrlSFVwordPath
+vmap     <C-F>F <Plug>CtrlSFVwordExec
+nmap     <C-F>n <Plug>CtrlSFCwordPath
+nmap     <C-F>p <Plug>CtrlSFPwordPath
+nnoremap <C-F>o :CtrlSFOpen<CR>
+nnoremap <C-F>t :CtrlSFToggle<CR>
+inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
