@@ -11,10 +11,13 @@ chmod +x install.sh
 ./install.sh
 ```
 
+After that open tmux and `prefix - I`
+
 ## Used repositories
 
 tmux plugins and base configuration:
   - https://github.com/samoshkin/tmux-config
+  - https://github.com/tmux-plugins/tmux-yank
 
 vim plugins:
 
