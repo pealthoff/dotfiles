@@ -11,7 +11,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-After that open tmux and `prefix - I`
+After that open tmux and execute `prefix(ctrl+A) - I`
 
 ## Used repositories
 
