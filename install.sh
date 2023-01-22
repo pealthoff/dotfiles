@@ -13,7 +13,7 @@ cp .vimrc ~/.vim/
 ln -s ~/.vim/.vimrc ~/.vimrc
 
 mv ~/.tmux/.tmux.conf ~/.tmux/tmux.conf-old
-cp .tmux.conf ~/.tmux/tmux.conf
+ln -s .tmux.conf ~/.tmux.conf
 
 mkdir ~/.vim
 mkdir ~/.vim/pack
